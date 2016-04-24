@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'data_analysis',
     'data_process',
     'api',
+    'module_testing',
 ]
 
 MIDDLEWARE_CLASSES = [

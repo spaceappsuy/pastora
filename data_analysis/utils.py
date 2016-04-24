@@ -4,13 +4,13 @@ from sklearn.cross_validation import train_test_split
 
 class MLAnalysis():
 	def __init__(self):
-		pass
+		self.linreg = LinearRegression()
 
-	def fitdata(self, dataset):
-		pass
+	def fitdata(self, dataset, target):
+		self.linreg.fit(dataset, target)
 
-	def validate(self):
+	def validate(self, dataset):
 		pass
 
 	def predict(self, dataset):
-		pass
+		return self.linreg.predict(dataset)

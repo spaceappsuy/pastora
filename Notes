@@ -5,3 +5,132 @@ References:
 - http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=939 (Vegetation information)
 - http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=979 (Precipitation)
 
+Export:
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+DataSets sample
+
+################################################################################
+
+This Filename: VegetationSpecies_PlotData.csv,,,
+Date Created: 11/11/2007,,,
+Team ID:,LC-09,,
+LBA Data Set ID: LC09_Vegetation_Composition,,,
+
+Column Number,Column Heading,Units/format,Description
+1,Sample_year,YYYY,"Sampling year (1992, 1993, 1994, 1995)"
+2,Latitude,UTM,"X coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
+3,Longitude,UTM,"Y coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
+4,Location,,"Sampling location name (Altamira, Bragantina, Ponta de Pedras, Tome-Acu, Yapu) (sites of Acai (Euterpe oleracea) agroforestry are not included for the Ponta de Pedras region; agroforestry sites not included for Tome-Acu)"
+5,Site_num,,Site number
+6,Plot_num,,Plot number
+7,Subplot_num,,Subplot number
+8,Plot_area,m2,Plot area
+9,SS_age,,Age of secondary succession (years)
+10,SS_state,,State of secondary succession
+11,Family,,Plant family name,,,,,,,,,,,,,,,,
+12,Species,,Plant species name,,,,,,,,,,,,,,,,
+13,Com_name,,Plant common name. None if not provided.,,,,,,,,,,,,,,,,
+14,Num_ind,,Number of individuals,,,,,,,,,,,,,,,,
+15,Perc_cov,%,Percent of soil surface covered in vegetation,,,,,,,,,,,,,,,,
+16,DBH,cm,Diameter at breast height in centimeters (cm),,,,,,,,,,,,,,,,
+17,Stem_ht,m,Stem height in meters (m),,,,,,,,,,,,,,,,
+18,Tot_ht,m,Total tree height in meters (m),,,,,,,,,,,,,,,,
+19,Broken_tree,yes,"Yes, if measured plant was a broken tree. Otherwise, No.",,,,,,,,,,,,,,,,
+20,Obs,,Additional observations. None if there are no observations.,,,,,,,,,,,,,,,,
+
+,Missing values are represented as -9999,,,,,,,,,,,,,,,,,,
+
+################################################################################
+
+File Name: LC09_Vegetation_Composition_Structure.csv,,,
+"Date Created:  11/11/2007, last modified 05-Feb-2008",,,
+Team ID: LC-09,,,
+Data Contact: Dr. Eduardo S. Brondizio (ebrondiz@indiana.edu) or Dr. Emilio F. Moran (moran@indiana.edu),,,
+LBA Data Set ID:  LC09_Vegetation_Composition,,,
+
+Column Number,Column Heading,Units/Format,Variable Description
+1,Sample_year,YYYY,"Sampling year (1992, 1993, 1994, 1995)"
+2,Latitude,UTM,"X coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S,"
+3,Longitude,UTM,"Y coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
+4,Location,,"Sampling location name (Altamira, Bragantina, Ponta de Pedras, Tome-Acu, Yapu) (sites of Acai (Euterpe oleracea) agroforestry are not included for the Ponta de Pedras region; agroforestry sites not included for Tome-Acu)"
+5,Sample_ID,,"Sample ID: site code + year of inventory, (e.g. A001-92, B001-92, P001-92, T001-02, YA008-95) (soil sampling was also carried out at each site, from 0 to 1 meter at 20 cm intervals)"
+6,LC_type,,Land cover type sampled
+7,LC_age,year,Land cover age (years)
+8,LU_type,,Land use type reported (years of use)
+9,LULC_hist,,Land use/land cover history with dates where available
+10,Man_mec_ag,,"Agriculture methods (Manual, Mechanized, Mechanized/Manual)"
+11,Num_burn,,Number of burnings
+12,Fert_use, ,"Fertilizer use (no, yes, no/yes)"
+13,Lrg_plot_area,m2,Large plot area
+14,Med_plot_area,m2,Medium plot area
+15,Sm_plot_area,m2,Small plot area
+16,Veg_ba_und,m2/ha,Vegetation basal area (understory)
+17,Veg_ba_ovr,m2/ha,Vegetation basal area (overstory)
+18,Veg_ba_tot,m2/ha,Vegetation basal area (total)
+9,Veg_biom_und,t/ha,Vegetation biomass (understory)
+20,Veg_biom_ovr,t/ha,Vegetation biomass (overstory)
+21,Veg_biom_tot,t/ha,Vegetation biomass (total)
+22,Num_ind_und,n/ha,Number of individual plants (understory) per hectare
+23,Num_ind_ovr,n/ha,Number of individual plants (overstory) per hectare
+24,Veg_ht_avg,m,Vegetation height (average)
+25,Veg_ht_max,m,Vegetation height (maximum)
+26,Num_fam_und,,Species composition - number of families (understory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,Num_fam_ovr,,Species composition - number of families (overstory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,Num_fam_tot,,Species composition - number of families (total),,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,Num_sp_und,,Species composition - number of species (understory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,Num_sp_ovr,,Species composition - number of species (overstory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,Num_sp_tot,,Species composition - number of species (total),,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+,Missing data values are represented as -9999.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+################################################################################
+
+File name: CD04_TNF_KM83_Gap_Soil_Moisture.csv,,,,,,,,,,,,,,
+File Date: 2010-Feb-17,,,,,,,,,,,,,,
+Associated LBA Data Set ID:  CD04_Gap_Soil_Moisture_Km83,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Column,Heading,,Units/format,Description,,,,,,,,,,
+1,Date,,yyyymmdd,Sample date,,,,,,,,,,
+2,Hour,,HH:MM,Time at the start of the sampling period 24 hour clock: time in local time which is GMT -4 hours,,,,,,,,,,
+3,Exp_Day,,,Decimal day since Jan 1 2000 ( 1= midnight January 1 2000),,,,,,,,,,
+4,Rainfall,,mm,Total rainfall in millimeters (mm) recorded over the 60-minute sampling period,,,,,,,,,,
+5,VWC_15cm,,m3/m3,Volumetric water content at 15 cm depth,,,,,,,,,,
+6,VWC_30cm,,m3/m3,Volumetric water content at 30 cm depth,,,,,,,,,,
+7,VWC_60cm,,m3/m3,Volumetric water content at 60 cm depth,,,,,,,,,,
+8,VWC_100cm,,m3/m3,Volumetric water content at 100 cm depth,,,,,,,,,,
+9,VWC_200cm,,m3/m3,Volumetric water content at 200 cm depth,,,,,,,,,,
+10,VWC_300cm,,m3/m3,Volumetric water content at 300 cm depth,,,,,,,,,,
+11,VWC_400cm,,m3/m3,Volumetric water content at 400 cm depth,,,,,,,,,,
+12,VWC_600cm,,m3/m3,Volumetric water content at 600 cm depth,,,,,,,,,,
+13,VWC_800cm,,m3/m3,Volumetric water content at 800 cm depth,,,,,,,,,,
+14,VWC_1000cm,,m3/m3,Volumetric water content at 1000 cm depth,,,,,,,,,,
+,,,,,,,,,,,,,,
+missing data are represented by -999,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+
+################################################################################
+
+File name: CD04_TNF_KM83_Soil_Moisture.csv,,,,,,,,,,,,,,
+File Date: 2008-Jul-08,,,,,,,,,,,,,,
+Associated LBA Data Set ID:  CD04_Soil_Moisture_Km83,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Column,Heading,Units/format,Description,,,,,,,,,,,
+1,Date,yyyymmdd,Sample date,,,,,,,,,,,
+2,Hour,HH:MM,Time at the start of the sampling period 24 hour clock: time in local time which is GMT -4 hours,,,,,,,,,,,
+3,Exp_Day,,Decimal day since Jan 1 2000 ( 1= midnight January 1 2000),,,,,,,,,,,
+4,Rainfall,mm,Total rainfall in millimeters (mm) recorded over the 30-minute sampling period,,,,,,,,,,,
+5,VWC_15cm,m3/m3,Volumetric water content at 15 cm depth,,,,,,,,,,,
+6,VWC_30cm,m3/m3,Volumetric water content at 30 cm depth,,,,,,,,,,,
+7,VWC_60cm,m3/m3,Volumetric water content at 60 cm depth,,,,,,,,,,,
+8,VWC_100cm,m3/m3,Volumetric water content at 100 cm depth,,,,,,,,,,,
+9,VWC_200cm,m3/m3,Volumetric water content at 200 cm depth,,,,,,,,,,,
+10,VWC_300cm,m3/m3,Volumetric water content at 300 cm depth,,,,,,,,,,,
+11,VWC_400cm,m3/m3,Volumetric water content at 400 cm depth,,,,,,,,,,,
+12,VWC_600cm,m3/m3,Volumetric water content at 600 cm depth,,,,,,,,,,,
+13,VWC_800cm,m3/m3,Volumetric water content at 800 cm depth,,,,,,,,,,,
+14,VWC_1000cm,m3/m3,Volumetric water content at 1000 cm depth,,,,,,,,,,,
+,,,,,,,,,,,,,,
+missing data are represented by -999,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

@@ -1,34 +1,6 @@
-This Filename: VegetationSpecies_PlotData.csv,,,
-Date Created: 11/11/2007,,,
-Team ID:,LC-09,,
-LBA Data Set ID: LC09_Vegetation_Composition,,,
-
-Column Number,Column Heading,Units/format,Description
-1,Sample_year,YYYY,"Sampling year (1992, 1993, 1994, 1995)"
-2,Latitude,UTM,"X coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
-3,Longitude,UTM,"Y coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
-4,Location,,"Sampling location name (Altamira, Bragantina, Ponta de Pedras, Tome-Acu, Yapu) (sites of Acai (Euterpe oleracea) agroforestry are not included for the Ponta de Pedras region; agroforestry sites not included for Tome-Acu)"
-5,Site_num,,Site number
-6,Plot_num,,Plot number
-7,Subplot_num,,Subplot number
-8,Plot_area,m2,Plot area
-9,SS_age,,Age of secondary succession (years)
-10,SS_state,,State of secondary succession
-11,Family,,Plant family name,,,,,,,,,,,,,,,,
-12,Species,,Plant species name,,,,,,,,,,,,,,,,
-13,Com_name,,Plant common name. None if not provided.,,,,,,,,,,,,,,,,
-14,Num_ind,,Number of individuals,,,,,,,,,,,,,,,,
-15,Perc_cov,%,Percent of soil surface covered in vegetation,,,,,,,,,,,,,,,,
-16,DBH,cm,Diameter at breast height in centimeters (cm),,,,,,,,,,,,,,,,
-17,Stem_ht,m,Stem height in meters (m),,,,,,,,,,,,,,,,
-18,Tot_ht,m,Total tree height in meters (m),,,,,,,,,,,,,,,,
-19,Broken_tree,yes,"Yes, if measured plant was a broken tree. Otherwise, No.",,,,,,,,,,,,,,,,
-20,Obs,,Additional observations. None if there are no observations.,,,,,,,,,,,,,,,,
-
-,Missing values are represented as -9999,,,,,,,,,,,,,,,,,,
-
 Sample_year,Latitude,Longitude,Location,Site_num,Plot_num,Subplot_num,Plot_area,SS_age,SS_state,Family,Species,Com_name,Num_ind,Perc_cov,DBH,Stem_ht,Tot_ht,Broken_tree,Obs
-1992,9637017,344603,Altamira,1,1,0,2250,16,3,Cecropiaceae,Cecropia (folha fina),None,1,-9999,27.12,10,18,No,None
+1992,9637017,344603,Altamira,1,1,0,2250,16,3,Cecropiaceae,Cecropia (folha fina),
+None,1,-9999,27.12,10,18,No,None
 1992,9637017,344603,Altamira,1,1,0,2250,16,3,Cecropiaceae,Cecropia (folha fina),None,1,-9999,32.7,10,18,No,None
 1992,9637017,344603,Altamira,1,1,0,2250,16,3,Lauraceae,Nectandra guianensis,None,1,-9999,12.5,4,6,No,None
 1992,9637017,344603,Altamira,1,1,0,2250,16,3,Mimosaceae,Inga macrophylla,None,1,-9999,10,5.5,8.5,No,None
