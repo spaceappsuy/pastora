@@ -42,8 +42,7 @@ def test_functionality():
 
 	# FIXME: Change the error fields
 	ml_p.fitdata(csv_vegetation_composition.data, csv_vegetation_composition.target)
-
-	# print(ml_p.predict([20020418, 798.392021]))
+	return ml_p
 
 def get_target_qualification_vegetation(dataframe):
 	target = []
