@@ -28,8 +28,6 @@ class ProcessCSV():
 		items = [ item for item in range(0, len(fields_to_parse)) ]
 
 		self.data = self.data.replace(fields_to_parse, items)
-		import ipdb; ipdb.set_trace()
-
 
 	def parse_data_to_numpy_arrays(self, dataframe, columns):
 		return dataframe[columns]

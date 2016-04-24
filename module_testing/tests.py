@@ -33,6 +33,7 @@ def test_functionality():
 	csv_vegetation_composition.target = get_target_qualification_vegetation(
 		veg_composition_x
 	)
+	csv_vegetation_composition.data = veg_composition_x
 
 	'''
 		Format set to predict:
@@ -41,7 +42,6 @@ def test_functionality():
 
 	# FIXME: Change the error fields
 	ml_p.fitdata(csv_vegetation_composition.data, csv_vegetation_composition.target)
-	print('DONE')
 
 	# print(ml_p.predict([20020418, 798.392021]))
 
