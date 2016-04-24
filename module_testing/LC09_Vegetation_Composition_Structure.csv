@@ -1,0 +1,116 @@
+File Name: LC09_Vegetation_Composition_Structure.csv,,,
+"Date Created:  11/11/2007, last modified 05-Feb-2008",,,
+Team ID: LC-09,,,
+Data Contact: Dr. Eduardo S. Brondizio (ebrondiz@indiana.edu) or Dr. Emilio F. Moran (moran@indiana.edu),,,
+LBA Data Set ID:  LC09_Vegetation_Composition,,,
+
+Column Number,Column Heading,Units/Format,Variable Description
+1,Sample_year,YYYY,"Sampling year (1992, 1993, 1994, 1995)"
+2,Latitude,UTM,"X coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S,"
+3,Longitude,UTM,"Y coordinates of center of site or site border - UTM, Brazil sites are generally Zone 22S, WGS84, Yapu site is Zone 19S"
+4,Location,,"Sampling location name (Altamira, Bragantina, Ponta de Pedras, Tome-Acu, Yapu) (sites of Acai (Euterpe oleracea) agroforestry are not included for the Ponta de Pedras region; agroforestry sites not included for Tome-Acu)"
+5,Sample_ID,,"Sample ID: site code + year of inventory, (e.g. A001-92, B001-92, P001-92, T001-02, YA008-95) (soil sampling was also carried out at each site, from 0 to 1 meter at 20 cm intervals)"
+6,LC_type,,Land cover type sampled
+7,LC_age,year,Land cover age (years)
+8,LU_type,,Land use type reported (years of use)
+9,LULC_hist,,Land use/land cover history with dates where available
+10,Man_mec_ag,,"Agriculture methods (Manual, Mechanized, Mechanized/Manual)"
+11,Num_burn,,Number of burnings
+12,Fert_use, ,"Fertilizer use (no, yes, no/yes)"
+13,Lrg_plot_area,m2,Large plot area
+14,Med_plot_area,m2,Medium plot area
+15,Sm_plot_area,m2,Small plot area
+16,Veg_ba_und,m2/ha,Vegetation basal area (understory)
+17,Veg_ba_ovr,m2/ha,Vegetation basal area (overstory)
+18,Veg_ba_tot,m2/ha,Vegetation basal area (total)
+9,Veg_biom_und,t/ha,Vegetation biomass (understory)
+20,Veg_biom_ovr,t/ha,Vegetation biomass (overstory)
+21,Veg_biom_tot,t/ha,Vegetation biomass (total)
+22,Num_ind_und,n/ha,Number of individual plants (understory) per hectare
+23,Num_ind_ovr,n/ha,Number of individual plants (overstory) per hectare
+24,Veg_ht_avg,m,Vegetation height (average)
+25,Veg_ht_max,m,Vegetation height (maximum)
+26,Num_fam_und,,Species composition - number of families (understory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,Num_fam_ovr,,Species composition - number of families (overstory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,Num_fam_tot,,Species composition - number of families (total),,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,Num_sp_und,,Species composition - number of species (understory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,Num_sp_ovr,,Species composition - number of species (overstory),,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,Num_sp_tot,,Species composition - number of species (total),,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+,Missing data values are represented as -9999.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Sample_year,Latitude,Longitude,Location,Sample_ID,LC_type,LC_age,LU_type,LULC_hist,Man_mec_ag,Num_burn,Fert_use,Lrg_plot_area,Med_plot_area,Sm_plot_area,Veg_ba_und,Veg_ba_ovr,Veg_ba_tot,Veg_biom_und,Veg_biom_ovr,Veg_biom_tot,Num_ind_und,Num_ind_ovr,Veg_ht_avg,Veg_ht_max,Num_fam_und,Num_fam_ovr,Num_fam_tot,Num_sp_und,Num_sp_ovr,Num_sp_tot
+1992,9841186,737337,Ponta de Pedras,P029-92,SS 1,1.5,Swidden agriculture,1989-20+ yr fallow; 1990-manioc; 1991-fallow,Manual,1,no,100,-9999,-9999,3.68,0,3.68,4.469,0,4.469,108900,-9999,2.5,7,30,1,30,57,-9999,57
+1992,9841094,737244,Ponta de Pedras,P030-92,SS 1,3.5,Swidden agriculture,1986-forest (old growth 50+ yrs); 1987-manioc; 1988-fallow,Manual,1,no,100,-9999,-9999,8.7,0,8.7,20.926,0,20.926,108000,-9999,3.3,12,37,1,37,67,-9999,67
+1993,9843430,742500,Ponta de Pedras,P011-93,SS 1,3.5,Swidden/Mechanized,1978-forest; 1979-rice and/or beans (mec);  1982-fallow; 1989-manioc; 1990-fallow,Mechanized/Manual,1,yes,100,-9999,-9999,9.1,0,9.1,17.27,0,17.27,73700,-9999,3.3,7,44,1,44,86,-9999,86
+1993,9846168,741214,Ponta de Pedras,P008-93,SS 1,4,Abandoned pasture,"1983-forest; 1984-pasture (mec/burn), 1986-fallow (burn); 1987-burned; 1989-burned, fallow",Mechanized,1,no,100,-9999,-9999,4.76,15.82,20.58,5.19,0,5.19,131400,-9999,3.5,8,37,1,37,71,-9999,71
+1992,9844070,742225,Ponta de Pedras,P006-92,SS 2,6.5,Swidden/Mechanized,1970-forest; 1975-rice and/or beans (mec);  1978-fallow; 1984-manioc; 1986-fallow,Mechanized/Manual,1,yes,1500,100,-9999,13.03,5.08,18.11,34.278,13.442,47.72,75700,273,6.3,8,38,5,38,70,8,-9999
+1993,9842477,737122,Ponta de Pedras,P003-93,SS 2,8,Swidden agriculture,1983-forest (old growth); 1984-manioc; 1986-fallow,Manual,1,no,1500,50,-9999,12.58,10.92,23.5,19.292,49.95,69.242,62600,647,9.5,15,24,13,29,42,16,-9999
+1992,9846800,742950,Ponta de Pedras,P001-92,SS 3,12.5,Abandoned pasture,1976-forest; 1978-pasture (mec/burn); 1979-fallow (planted and abandoned),Mechanized,1,no,1500,100,-9999,9.68,11.13,20.81,24.411,39.316,63.727,92600,440,8.9,12,37,7,37,62,11,-9999
+1993,9842232,735915,Ponta de Pedras,P004-93,SS 3,15,Swidden agriculture,1977-forest (old growth); 1978-manioc; 1979- fallow,Manual,1,no,1500,50,-9999,8.83,19.71,28.54,26.272,100.893,127.165,71400,640,12,22,34,21,44,61,32,-9999
+1992,9849421,736355,Ponta de Pedras,P024-92,Deflected succession,25,Swidden agriculture,1950s-forest (old growth); 1950s-60s -repeated slash-and-burning until 1966; 1966-fallow (repeated burning almost every year),Manual,1,no,100,-9999,-9999,0,0,0,0,-9999,0,113300,-9999,1,2,27,-9999,27,40,-9999,40
+1992,9840800,737200,Ponta de Pedras,P015-92,Upland forest,-9999,No use reported,No data reported,No data reported,-9999,No data reported,9000,100,-9999,4.45,32.19,36.64,6.995,358.737,365.732,37700,511,20.3,40,39,36,48,60,83,-9999
+1993,9841750,735544,Ponta de Pedras,P010-93,Upland forest,-9999,No use reported,No data reported,No data reported,-9999,No data reported,5000,100,-9999,5.03,44.07,49.1,9.125,491.448,500.573,53100,364,22,35,51,26,57,95,65,-9999
+1992,9846814,731807,Ponta de Pedras,P025-92,Floodplain forest,-9999,Selective logging (>10 years),No data reported,No data reported,-9999,No data reported,5000,80,-9999,0,31.63,31.63,0,250.57,250.57,19625,790,19.6,35,22,24,34,32,44,-9999
+1993,9841550,736850,Ponta de Pedras,P006-93,Floodplain forest,-9999,Selective logging (>10 years),No data reported,No data reported,-9999,No data reported,5000,160,-9999,9.04,29.37,38.41,11.186,226.59,237.776,24188,942,21,30,23,27,32,36,45,-9999
+1992,9845892,731373,Ponta de Pedras,P027-92,Transitional forest,-9999,No use reported,No data reported,No data reported,-9999,No data reported,1500,50,-9999,0,14.1,14.1,0,116.551,116.551,54800,1273,9,28,34,24,40,61,46,-9999
+1992,9847800,730800,Ponta de Pedras,P026-92,Grassland savanna,-9999,Occasional burning,Frequent burning  (yearly),No data reported,1,No data reported,10000,80,-9999,0,1.78,1.78,0,3.775,3.775,17500,87,4.5,10,16,10,18,18,10,-9999
+1993,9848850,742877,Ponta de Pedras,P012-93,Grassland savanna,-9999,Occasional burning,Frequent burning  (yearly),No data reported,1,No data reported,10000,80,-9999,0.63,3.27,3.9,1.679,9.185,10.864,36375,82,5,9,15,9,19,25,12,-9999
+1993,9842200,734950,Ponta de Pedras,P013-93,Grassland savanna,-9999,Occasional burning,Frequent burning  (yearly),No data reported,1,No data reported,10000,80,-9999,2.55,3.09,5.64,5.08,8.103,13.183,23250,111,5,14,21,10,24,32,15,-9999
+1993,9847021,740620,Ponta de Pedras,P009-93,Transitional savanna,-9999,Occasional burning,Frequent burning  (yearly),No data reported,1,No data reported,1500,50,-9999,1.1,6.39,7.49,2.186,19.541,21.727,75800,387,6.5,10,24,11,28,37,11,-9999
+1992,9846046,737373,Ponta de Pedras,P028-92,Imperata savanna,-9999,Occasional burning,Frequent burning  (yearly),No data reported,1,No data reported,100,-9999,-9999,0,0,0,0,0,0,99800,-9999,3,2,26,-9999,26,33,-9999,33
+1994,9865756,213532,Bragantina,B009-94,SS 1,2.5,Swidden agriculture,"1984-corn, manioc, beans, rice; 1986-fallow; 1991-corn, manioc; 1992-fallow",Manual,1,no,100,-9999,-9999,1.22,-9999,1.22,-9999,-9999,-9999,136600,-9999,2.4,3.5,33,-9999,33,66,-9999,66
+1995,9844803,212665,Bragantina,B021-95,SS 1,3,Swidden agriculture,1991-crop,Manual,-9999,no,1500,100,10,0.26,-9999,0.26,-9999,-9999,-9999,127600,-9999,3,3.5,34,-9999,34,67,-9999,67
+1994,9871202,204251,Bragantina,B005-94,SS 1,3,Swidden agriculture/pasture,"1990-manioc, corn, rice; 1991-pasture",Manual,1,no,100,-9999,3,0,-9999,0,-9999,-9999,-9999,45200,-9999,-9999,-9999,26,-9999,26,45,-9999,45
+1995,9867755,188629,Bragantina,B026-95,SS 1,4,Swidden agriculture,1950?-crop; 1991-manioc,Manual,1,no,1500,100,10,2.7,-9999,2.7,-9999,-9999,-9999,118700,-9999,-9999,8,46,-9999,46,80,-9999,80
+1994,9878135,214672,Bragantina,B003-94,SS 1,4.5,Swidden agriculture,"1989-beans, manioc, corn; 1990-fallow",Manual,1,no,100,-9999,4,1.08,-9999,1.08,-9999,-9999,-9999,121200,-9999,2.43,4.5,43,-9999,43,91,-9999,91
+1995,9879095,197220,Bragantina,B025-95,SS 2,6,Swidden agriculture,"1988-manioc, beans",Manual,1,no,1500,100,10,9.6,6.22,15.82,-9999,-9999,-9999,80600,333,11.14,16,35,10,37,60,12,66
+1995,9881158,219723,Bragantina,B027-95,SS 2,8,Swidden agriculture,1965?-crop; 1986-manioc,Manual,1,no,1500,100,10,11.02,1.76,12.78,-9999,-9999,-9999,86000,153,8.41,13,44,7,46,75,9,71
+1994,9881331,207972,Bragantina,B010-94,SS 2,8,Swidden agriculture,"1985-beans, manioc, corn; 1986-fallow",Manual,1,no,1500,100,4,-9999,-9999,-9999,-9999,-9999,-9999,74900,407,-9999,-9999,31,11,33,58,11,62
+1994,9862768,204394,Bragantina,B004-94,SS 2,10,Swidden agriculture,"1983-corn,beans, manioc; 1985-fallow",Manual,1,no,1500,100,5,12.52,3.92,16.44,-9999,-9999,-9999,67200,360,9.95,13,42,6,43,87,8,90
+1994,9877990,214705,Bragantina,B001-94,SS 3,14,Swidden agriculture,"1979-beans, manioc, corn; 1980-fallow",Manual,1,no,1500,100,2,10.7,5.96,16.66,-9999,-9999,-9999,154700,520,8.96,13,35,12,37,71,15,78
+1994,9880774,213508,Bragantina,B011-94,SS 3,15,Swidden agriculture,"1978-rice, manioc, corn; 1980-fallow",Manual,1,no,1500,100,4,7.65,6.4,14.05,-9999,-9999,-9999,84500,353,8.75,13,40,14,40,76,18,82
+1994,9879219,213336,Bragantina,B006-94,SS 3,19,Swidden agriculture,1960s-manioc; 1960's-fallow; 1974-cotton; 1975-fallow ,Manual,1,no,1500,100,4,-9999,-9999,-9999,-9999,-9999,-9999,42100,413,-9999,15,31,12,33,58,13,64
+1994,9879100,214349,Bragantina,B002-94,SS 3,20,Swidden agriculture,"1974-manioc, corn",Manual,1,no,1500,100,4,-9999,-9999,-9999,-9999,-9999,-9999,73500,640,-9999,18,32,17,36,62,26,72
+1995,9876442,195442,Bragantina,B024-95,SS 3,25,Swidden agriculture,Before 1970-agave for rope,Manual,-9999,no,1500,100,10,1.88,19.46,21.34,-9999,-9999,-9999,119200,627,15.69,25,36,15,35,65,22,72
+1995,9879174,212774,Bragantina,B020-95,SS 3,35,Swidden agriculture,"1960-rice, manioc, corn",Manual,1,no,1500,100,10,9.54,11.93,21.47,-9999,-9999,-9999,63600,673,13.21,18,33,21,43,62,25,79
+1994,9879233,187935,Bragantina,B008-94,Upland forest,-9999,Logging,1984-logged,Mechanized,0,no,1500,100,-9999,7.01,36.81,43.81,-9999,-9999,-9999,44300,833,18.94,33,42,29,48,83,37,97
+1995,9889076,217344,Bragantina,B022-95,Igapo forest (wet),-9999,Logging,Occasional logging,Manual,0,no,1500,100,10,13.77,37.32,51.09,-9999,-9999,-9999,15100,860,15.81,28,20,14,23,39,24,52
+1995,9889086,217354,Bragantina,B023-95,Igapo forest (dry),-9999,Logging,Occasional logging,Manual,0,no,1500,100,10,6.23,26.5,32.73,-9999,-9999,-9999,50500,520,14.96,22,40,25,46,75,39,98
+1994,9879324,212794,Bragantina,B007-94,SS 3,35,Swidden agriculture,"1960-rice, manioc, corn",Manual,1,no,1500,100,6,8.43,23.97,32.4,-9999,-9999,-9999,68500,687,-9999,-9999,46,24,52,90,36,109
+1994,9736470,805050,Tome-Acu,T003-94,SS 1,1,"Cleared, logging","1950-forest; late 1960-logging; 1990-cl, burn, 1993-burned, fallow",Manual,1,no,100,-9999,-9999,0.97,0,0.97,-9999,-9999,-9999,76600,0,2.36,4.5,-9999,-9999,-9999,68,0,-9999
+1994,9737340,805253,Tome-Acu,T001-94,SS 1,3,Swidden agriculture,1970s-black pepper; >1975-fallow;1991-slashed (not burned); 1991-fallow,Mechanized/Manual,0,no/yes,1500,100,-9999,7.96,2.16,10.12,-9999,-9999,-9999,62400,213,6.64,9,-9999,-9999,-9999,76,13,-9999
+1994,9736289,807397,Tome-Acu,T005-94,SS 1,5,Swidden agriculture,1982-rice; 1983-maracuja; 1986-maracuja; 1989-fallow,Mechanized,1,yes,1500,100,-9999,8.05,1.71,8.05,-9999,-9999,-9999,70400,187,7.13,10,-9999,-9999,-9999,56,6,-9999
+1995,9702501,794985,Tome-Acu,T011-95,SS 1,5,Swidden agriculture,1983-black pepper; 1990-fallow,Manual,1,yes,1500,100,10,10.2,10.5,20.7,-9999,-9999,-9999,11700,807,9.46,12,-9999,-9999,-9999,31,1,-9999
+1995,9797983,792876,Tome-Acu,T014-95,SS 2,6,Swidden agriculture,1988-rice; 1989-fallow,Manual,1,no,1500,100,10,12.1,2.27,14.37,-9999,-9999,-9999,46500,227,9.68,13,-9999,-9999,-9999,66,9,-9999
+1995,9705508,794737,Tome-Acu,T015-95,SS 2,9,Swidden agriculture,1986-rice; 1986-fallow,Manual,1,no,1500,100,10,10.8,5.42,16.22,-9999,-9999,-9999,46000,453,10.12,14,-9999,-9999,-9999,67,13,-9999
+1995,9723454,800894,Tome-Acu,T010-95,SS 2,9,Swidden agriculture,No agriculture;1970-cut/burn/fallow; 1986-cut/burn/fallow,Mechanized,1,yes,1500,100,10,11,7.98,18.98,-9999,-9999,-9999,55200,440,10.05,14,-9999,-9999,-9999,75,24,-9999
+1995,9730847,804119,Tome-Acu,T013-95,SS 3,17,Swidden agriculture,1945-cut/burn/fallow; 1972-black pepper; 1978-fallow,Mechanized,1,yes,1500,100,10,9,8.23,17.23,-9999,-9999,-9999,79100,460,11.73,20,-9999,-9999,-9999,69,13,-9999
+1994,9737246,805514,Tome-Acu,T002-94,SS 3,25,Swidden agriculture,"1967-corn, rice, > 1968-fallow",Manual,1,no,1500,100,-9999,7.74,28.6,36.34,-9999,-9999,-9999,48800,927,15.69,25,-9999,-9999,-9999,90,45,-9999
+1995,9732728,810836,Tome-Acu,T017-95,SS 3,29,Swidden agriculture,1941-rice; 1942-fallow; 1956-black pepper; 1965-rubber; 1966-fallow,Mechanized,1,yes,1500,100,-9999,5,11.56,16.56,-9999,-9999,-9999,78000,453,12.91,18,-9999,-9999,-9999,85,17,-9999
+1995,9733508,809726,Tome-Acu,T016-95,SS 3,49,Swidden agriculture,1945-rice; 1945-fallow,Manual,1,no,1500,100,10,6.3,12.46,18.76,-9999,-9999,-9999,74300,467,11.96,21,-9999,-9999,-9999,81,36,-9999
+1995,9708215,790747,Tome-Acu,T012-95,Upland forest,-9999,Logging,>30 years-logging,Manual,-9999,yes,1500,100,10,3.4,30.52,33.92,-9999,-9999,-9999,61500,573,16.37,27,-9999,-9999,-9999,94,35,-9999
+1992,9612747,274083,Altamira,A010-92,SS 1,1,Swidden agriculture,1973-forest; 1974-crop; 1976-fallow; 1982-crop; 1984-fallow; 1990-crop; 1991-fallow,No data reported,-9999,No data reported,100,-9999,-9999,-9999,-9999,-9999,-9999,-9999,-9999,56900,0,3.44,10,-9999,-9999,-9999,48,-9999,48
+1993,9636547,338213,Altamira,A009-93,SS 1,2,Swidden agriculture/pasture,1987-forest; 1989-pasture; 1991-fallow,No data reported,-9999,No data reported,1500,50,-9999,4.82,-9999,4.82,-9999,-9999,-9999,172700,0,3.53,10,46,-9999,46,88,-9999,88
+1993,9636999,344713,Altamira,A010-93,SS 1,2,Swidden agriculture,1989-forest; 1990-crop; 1991-fallow,No data reported,-9999,No data reported,1500,50,-9999,7.67,-9999,7.67,-9999,-9999,-9999,80200,0,3.91,10.3,43,-9999,43,73,-9999,73
+1993,9656979,347816,Altamira,A004-93,SS 1,3,Swidden agriculture/pasture,1987-forest; 1988-crop. 1989-pasture; 1990-fallow,No data reported,-9999,No data reported,1500,50,-9999,8.69,-9999,8.69,-9999,-9999,-9999,98400,0,5.13,10,43,-9999,43,68,-9999,68
+1993,9640472,338003,Altamira,A006-93,SS 2,7,Swidden agriculture/pasture,1971-forest; 1972-crop; 1973-fallow; 1984-crop; 1985-pasture; 1986-fallow,No data reported,-9999,No data reported,1500,50,-9999,5.7,16.99,22.7,-9999,-9999,-9999,193600,753,12.91,22,35,15,38,56,26,70
+1993,9635092,338437,Altamira,A014-93,SS 2,7,Swidden agriculture/agroforestry,"1972-forest; 1973-crop; 1974-fallow; 1985-rice, beans, corn + cacao; 1986-fallow",No data reported,-9999,No data reported,1500,50,-9999,11.98,11.36,23.34,-9999,-9999,-9999,50400,773,-9999,17,39,17,45,56,27,73
+1993,9639515,338597,Altamira,A007-93,SS 2,8,Swidden agriculture/agroforestry,1976-forest; 1978-crop; 1984-cacao;1985-fallow ,No data reported,-9999,No data reported,1500,50,-9999,8.14,13.76,21.91,-9999,-9999,-9999,83600,580,12.15,22,28,13,32,43,23,56
+1993,9636908,345324,Altamira,A011-93,SS 2,9,Swidden agriculture/pasture,1971-forest; 1972-pasture; 1977-fallow; 1980-crop; 1982-pasture; 1984-fallow,No data reported,-9999,No data reported,1500,50,-9999,13.29,-9999,-9999,-9999,-9999,-9999,78000,880,-9999,25,26,17,33,38,34,59
+1993,9637829,345304,Altamira,A005-93,SS 2,9,Swidden agriculture/pasture,1971-forest; 1972-pasture; 1976-fallow; 1983-crop; 1984-fallow,No data reported,-9999,No data reported,1500,50,-9999,1.55,-9999,-9999,-9999,-9999,-9999,113600,553,-9999,-9999,32,23,43,47,33,69
+1993,9641607,359801,Altamira,A012-93,SS 2,10,Swidden agriculture/pasture,1971-forest; 1972-crop; 1973-pasture; 1979-fallow; 1982-crop; 1983-fallow,No data reported,-9999,No data reported,1500,50,-9999,7.27,72.18,79.45,-9999,-9999,-9999,40200,1080,11.49,19,-9999,-9999,-9999,-9999,-9999,-9999
+1993,9642456,360467,Altamira,A013-93,SS 2,10,Swidden agriculture,"1982-rice, beans, corn; 1983-fallow",Manual,1,No data reported,1500,50,-9999,1.98,13.46,15.44,-9999,-9999,-9999,66600,707,10.14,21,36,17,39,71,25,87
+1993,9640120,364378,Altamira,A002-93,SS 3,16,Swidden agriculture,"1975-forest; 1976-cleared,crop",Manual,1,no,1500,100,-9999,11.85,13.3,25.15,-9999,-9999,-9999,21800,493,13.55,30,31,26,37,45,43,70
+1993,9640176,364322,Altamira,A001-93,SS 3,16,Swidden agriculture,"1975-forest; 1976-cleared,crop",Manual,1,no,1500,100,-9999,1.51,13.58,15.09,-9999,-9999,-9999,33400,560,11.63,35,32,25,40,46,41,72
+1992,9637017,344603,Altamira,A001-92,SS 3,16,Experiment,1975-forest; 1976-cleared,Manual,-9999,No data reported,2250,20,-9999,-9999,26.14,-9999,-9999,-9999,-9999,55500,613,19.26,36,18,12,26,21,20,38
+1993,9637925,348045,Altamira,A003-93,Liana forest,-9999,Logging,Selective logging,No data reported,-9999,No data reported,2000,80,-9999,9.94,47.68,57.62,-9999,-9999,-9999,103625,675,15.2,58,36,26,41,61,52,85
+1993,9639615,344579,Altamira,A008-93,Upland forest,-9999,No use reported,No data reported,No data reported,-9999,No data reported,2000,80,-9999,5.59,29.79,35.38,-9999,-9999,-9999,56375,715,15.13,42,37,28,47,57,52,93
+1995,-9999,351755,Yapu,YA008-95,SS,3,Swidden agriculture,Before 1990-forest or old growth; 1991-crop; 1992-fallow ,No data reported,-9999,No data reported,1500,50,-9999,3.05,-9999,3.05,-9999,-9999,-9999,-9999,-9999,4.76,5.5,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,347860,Yapu,YA007-95,SS,7,Swidden agriculture,Before 1987-forest or old growth; 1987-crop; 1988-fallow ,No data reported,-9999,No data reported,1500,50,-9999,12.8,2.2,15,-9999,-9999,-9999,-9999,-9999,8,9.9,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,347477,Yapu,YA006-95,SS,10,Swidden agriculture,Before 1984-forest or old growth; 1984-crop; 1985-fallow ,No data reported,-9999,No data reported,1500,50,-9999,6.07,7.15,13.17,-9999,-9999,-9999,-9999,-9999,11.12,12.6,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,347822,Yapu,YA005-95,SS,15,Swidden agriculture,Before 1979-forest or old growth; 1979-crop; 1980-fallow ,No data reported,-9999,No data reported,1500,50,-9999,7.3,12.2,19.5,-9999,-9999,-9999,-9999,-9999,11.8,13.6,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,346460,Yapu,YA004-95,SS,20,Swidden agriculture,Before 1974-forest or old growth; 1974-crop; 1975-fallow ,No data reported,-9999,No data reported,1500,50,-9999,7.8,10.7,18.5,-9999,-9999,-9999,-9999,-9999,11.42,12.7,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,347910,Yapu,YA001-95,Upland forest,-9999,No use reported,No use reported,No data reported,-9999,No data reported,1500,50,-9999,6.4,34.1,40.5,-9999,-9999,-9999,-9999,-9999,16.5,20.9,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,348417,Yapu,YA002-95,Sabana Alta,-9999,No use reported,No use reported,No data reported,-9999,No data reported,1500,50,-9999,4.59,15.24,19.75,-9999,-9999,-9999,-9999,-9999,13.3,15.5,-9999,-9999,-9999,-9999,-9999,-9999
+1995,-9999,348417,Yapu,YA003-95,Savana Baixa,-9999,No use reported,No use reported,No data reported,-9999,No data reported,1500,50,-9999,0.72,-9999,0.72,-9999,-9999,-9999,-9999,-9999,1.12,2.8,-9999,-9999,-9999,-9999,-9999,-9999

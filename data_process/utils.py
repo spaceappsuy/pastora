@@ -6,7 +6,7 @@ class ProcessCSV():
 	def __init__(self):
 		pass
 
-	def download_csv(self):
+	def download_csv(self, url):
 		pass
 
 	def read_csv(self):
