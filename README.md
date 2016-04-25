@@ -22,6 +22,9 @@ The application uses a .csv file as sample data source for emulate the behavior 
 	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=939 (Vegetation information)
 	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=979 (Precipitation)
 
+   For test the application with a client, also we have an ionic app solution:
+   https://github.com/DRivAlegre/client-app-pastora
+
    If you have any trouble about UTF-8 support when you running the server, you just should execute two lines on the console:
    	
    	export LC_ALL=en_US.UTF-8
