@@ -1,17 +1,35 @@
-This README.md file is displayed on your project page. You should edit this 
-file to describe your project, including instructions for building and 
-running the project, pointers to the license under which you are making the 
-project available, and anything else you think would be useful for others to
-know.
+## Synopsis
 
-We have created an empty license.txt file for you. Well, actually, it says,
-"<Replace this text with the license you've chosen for your project.>" We 
-recommend you edit this and include text for license terms under which you're
-making your code available. A good resource for open source licenses is the 
-[Open Source Initiative](http://opensource.org/).
+Pastora gives the tools for empowering the pastoralism communities via information, with the purpose of make decisions that will improve their quality of life.
 
-Be sure to update your project's profile with a short description and 
-eye-catching graphic.
+## Description of the demo
 
-Finally, consider defining some sprints and work items in Track & Plan to give 
-interested developers a sense of your cadence and upcoming enhancements.
+The application uses a .csv file as sample data source for emulate the behavior of consume data from NASA API, and then create a dataset which it will be used for learn an machine learning algorithm that classify with a number the favorable condition level of a location for development by observating three features(amount of burnings, fertilizer use and vegetation density). Then, these results will display on map suggesting the most favorable and near places of subsisting.
+
+## Instalation
+
+	1. It is recommendable to use a virtual environment.
+	2. Execute pip install -r requirements.txt on the root application
+	3. You can test the endpoint for predict an observation with the url:
+
+		/api/predict
+
+		that receive num_burn, num_ind_avg and fert_use key names as parameters.
+
+## Additional notes
+   **Resources used**
+	- https://search.earthdata.nasa.gov
+	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=939 (Vegetation information)
+	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=979 (Precipitation)
+
+   If you have any trouble about UTF-8 support when you running the server, you just should execute two lines on the console:
+   	
+   	**export LC_ALL=en_US.UTF-8**
+	**export LANG=en_US.UTF-8**
+
+   Right now, it is just the backend application and an endpoint for expose a predict machine learning method.
+
+## TODO
+- Add contributor section
+- Choose and add license section
+
