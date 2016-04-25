@@ -24,8 +24,8 @@ The application uses a .csv file as sample data source for emulate the behavior 
 
    If you have any trouble about UTF-8 support when you running the server, you just should execute two lines on the console:
    	
-   	**export LC_ALL=en_US.UTF-8**
-	**export LANG=en_US.UTF-8**
+   	export LC_ALL=en_US.UTF-8
+	export LANG=en_US.UTF-8
 
    Right now, it is just the backend application and an endpoint for expose a predict machine learning method.
 
