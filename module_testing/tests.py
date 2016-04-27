@@ -19,7 +19,7 @@ def test_functionality():
 	csv_vegetation_composition.parse_data('Num_burn')
 	csv_vegetation_composition.parse_data('Fert_use')
 
-	veg_composition_x = csv_vegetation_composition.parse_data_to_numpy_arrays(
+	veg_composition_x = csv_vegetation_composition.subset_data(
 		csv_vegetation_composition.data,
 		[
 			'Location',
@@ -41,7 +41,12 @@ def test_functionality():
 	'''
 
 	# FIXME: Change the error fields
-	ml_p.fitdata(csv_vegetation_composition.data, csv_vegetation_composition.target)
+	ml_p.fitdata_classification(
+		csv_vegetation_composition.parse_to_numpy_array(
+			csv_vegetation_composition.data
+		),
+		csv_vegetation_composition.target
+	)
 	return ml_p
 
 def get_target_qualification_vegetation(dataframe):

@@ -29,5 +29,8 @@ class ProcessCSV():
 
 		self.data = self.data.replace(fields_to_parse, items)
 
-	def parse_data_to_numpy_arrays(self, dataframe, columns):
+	def subset_data(self, dataframe, columns):
 		return dataframe[columns]
+
+	def parse_to_numpy_array(self, dataframe):
+		return np.array(dataframe)
