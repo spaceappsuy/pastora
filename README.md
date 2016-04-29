@@ -34,5 +34,5 @@ The application uses a .csv file as sample data source for emulate the behavior 
 
 ## TODO
 - Add contributor section
-- Choose and add license section
+
 
