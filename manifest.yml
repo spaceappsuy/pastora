@@ -1,9 +1,0 @@
-applications:
-- path: .
-  memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: pastora
-  host: pastora
-  disk_quota: 1024M
-  
