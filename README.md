@@ -19,7 +19,9 @@ The application uses a .csv file as sample data source for emulate the behavior 
 ## Additional notes
    **Resources used**
 	- https://search.earthdata.nasa.gov
+
 	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=939 (Vegetation information)
+	
 	- http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=979 (Precipitation)
 
    For test the application with a client, also we have an ionic app solution:
